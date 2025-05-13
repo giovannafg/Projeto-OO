@@ -1,7 +1,6 @@
 import sys
 import os
 import io
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 import PySimpleGUI as sg
 from controllers.usuario_controller import UsuarioController

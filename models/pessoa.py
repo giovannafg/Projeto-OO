@@ -23,18 +23,5 @@ class Pessoa:
         return f"Nome: {self.nome} | Email: {self.email}"
 
 class Leitor(Pessoa):
-    def __init__(self, nome, email):
-        super().__init__(nome, email)
-        self.postagens = []  # agregação com Postagem
-
-    def to_dict(self):
-        data = super().to_dict()
-        data["postagens"] = self.postagens
-        return data
-
-    @staticmethod
-    def from_dict(d):
-        leitor = Leitor(d["nome"], d["email"])
-        leitor.id = d["id"]
-        leitor.postagens = d.get("postagens", [])
-        return leitor
+   pass
+# herda tudo de Pessoa (incluindo to_dict() e from_dict()), sem precisar reescrever nada.
