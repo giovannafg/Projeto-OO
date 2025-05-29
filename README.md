@@ -1,58 +1,74 @@
-# Entrelinhas Clarice
+# 📚 Entrelinhas Clarice
 
-Este projeto foi desenvolvido como entrega do **Projeto Livre de Orientação a Objetos **, com foco na aplicação prática dos conceitos abordados em aula. A proposta consiste em um sistema que permite o **cadastro de leitores**, **registro de livros**, **criação e listagem de postagens** com comentários sobre as obras literárias da autora Clarice Lispector, utilizando os recursos da orientação a objetos.
+**Entrelinhas Clarice** é um projeto desenvolvido como entrega do **Projeto Livre de Orientação a Objetos**, com foco na aplicação prática dos conceitos abordados em aula.
 
+O sistema permite o **cadastro de leitores**, **registro de livros**, além da **criação e listagem de postagens com comentários** sobre obras literárias da autora **Clarice Lispector**, utilizando recursos da **orientação a objetos**.
 
-## ** Como executar o projeto**
+---
 
-### **🔧 Pré-requisitos**
+## Como Executar o Projeto
 
-Antes de rodar o projeto, é necessário instalar os seguintes pacotes Python:
+### 🔧 Pré-requisitos
+
+Antes de iniciar, instale os pacotes necessários:
 
 ```bash
 pip install PySimpleGUI pillow
+```
 
-### **▶️ Executando**
+### ▶️ Executando
 
-Para iniciar a interface gráfica:
+Para iniciar a **interface gráfica**:
 
 ```bash
 python main_gui.py
+```
 
-💾 Os dados são salvos automaticamente nos arquivos JSON localizados na pasta data/.
+> 💾 Os dados são salvos automaticamente nos arquivos `.json` localizados na pasta `data/`.
 
+---
 
-## 💡 Motivação e Histórico do Projeto
+## 💡 Motivação e Histórico
 
-Inicialmente, o sistema foi implementado com **interface em terminal**, mas evoluiu para utilizar uma interface gráfica com **PySimpleGUI**. No entanto, o PySimpleGUI deixou de oferecer, recentemente, **licenças para hobbyistas**, tornando seu uso gratuito disponível apenas por **30 dias após a instalação**.
+O sistema foi inicialmente implementado com **interface em terminal**, mas evoluiu para uma **interface gráfica** com **PySimpleGUI**.
 
-Assim, o projeto final da disciplina será retomado com base na ideia central do "Entrelinhas Clarice", **sem uso de GUI**, utilizando:
+No entanto, devido à nova política de licenciamento do PySimpleGUI (uso gratuito por apenas **30 dias** para hobbyistas), o projeto será retomado com foco em uma **versão web** para o projeto final:
 
-- ✔ **Serviços HTTP/HTTPS** para expor modelos por meio de páginas HTML/CSS/JS.
-- ✔ **Sistema web com login** e controle de acesso a páginas, aplicando os conhecimentos adquiridos na **macrotarefa proposta pelo professor**.
+- 🌐 **Serviços HTTP/HTTPS** com páginas HTML/CSS/JS.
+- 🔐 **Sistema web com login** e controle de acesso.
 
+Esta nova abordagem está alinhada à **macrotarefa proposta pelo professor**, permitindo ampliar os conhecimentos em desenvolvimento web com orientação a objetos.
+
+---
 
 ## ✅ Critérios de Avaliação Atendidos
 
-### ✔ Casos de Uso
-- Cadastrar usuário (leitor).
-- Criar uma postagem associando um leitor a um livro.
-- Listar, editar e remover postagens e usuários.
-- Visualizar livros disponíveis no sistema.
+### ✔ Casos de Uso Implementados
 
-### ✔ Modelagem com Orientação a Objetos
+- Cadastro de usuários (leitores).
+- Registro de livros.
+- Criação de postagens associando leitores e livros.
+- Listagem, edição e remoção de postagens e usuários.
+- Visualização dos livros disponíveis.
+
+### ✔ Aplicação de Orientação a Objetos
+
 - **Encapsulamento**: entidades como `Livro`, `Postagem`, `Pessoa`, `Leitor`.
-- **Herança**: `Leitor` herda de `Pessoa`.
+- **Herança**: classe `Leitor` herda de `Pessoa`.
 - **Composição forte**: `Postagem` composta por IDs de `Leitor` e `Livro`.
 - **Associação fraca**: controladores manipulam listas de objetos.
-- **Polimorfismo**: método `exibir_info()` com comportamentos distintos.
 
-### ✔ Serialização de Objetos
-- Todos os dados são persistidos por meio de arquivos `.json`, com uso de métodos `to_dict()` e `from_dict()`.
+### ✔ Serialização
+
+- Dados persistidos via arquivos `.json`.
+- Métodos `to_dict()` e `from_dict()` implementados para serialização.
 
 ### ✔ Interface Gráfica
-- Desenvolvida com **PySimpleGUI**, usando layout com rolagem, campos interativos e separação de janelas por funcionalidade.
 
+- Desenvolvida com **PySimpleGUI**.
+- Inclui **layouts com rolagem**, **campos interativos** e **janelas separadas por funcionalidade**.
+
+---
 
 ## 📁 Estrutura do Projeto
 
@@ -73,3 +89,4 @@ Assim, o projeto final da disciplina será retomado com base na ideia central do
 │   └── pessoa.py
 ├── main_gui.py
 ├── README.md
+```
