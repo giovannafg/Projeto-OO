@@ -28,6 +28,16 @@ python main_gui.py
 
 ---
 
+## Tela inicial:
+
+![Captura de tela 2025-05-29 151417](https://github.com/user-attachments/assets/cb2b5917-0376-4832-91fd-c9d431776452)
+
+## Exemplo de postagem:
+
+![Captura de tela 2025-05-29 151455](https://github.com/user-attachments/assets/510091e5-19ac-4a6c-a64c-681cfed78403)
+
+---
+
 ## 💡 Motivação e Histórico
 
 O sistema foi inicialmente implementado com **interface em terminal**, mas evoluiu para uma **interface gráfica** com **PySimpleGUI**.
