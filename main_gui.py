@@ -1,5 +1,3 @@
-import sys
-import os
 import io
 
 import PySimpleGUI as sg

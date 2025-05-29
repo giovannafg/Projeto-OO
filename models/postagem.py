@@ -23,5 +23,6 @@ class Postagem:
     def from_dict(d):
         return Postagem(d["leitor_id"], d["livro_id"], d["comentario"], d["data"])
 
-    def exibir_info(self, leitor_nome, livro_titulo):
-        return f"{leitor_nome} leu '{livro_titulo}' e comentou: \"{self.comentario}\" em {self.data}"
+    #def exibir_info(self, leitor_nome, livro_titulo):
+        #return f"{leitor_nome} leu '{livro_titulo}' e comentou: \"{self.comentario}\" em {self.data}"
+        #manual na main_gui mesmo

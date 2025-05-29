@@ -10,20 +10,20 @@ class LivroController:
     def carregar_livros_padrao(self):
         if not os.path.exists(self.caminho_arquivo):
             livros_clarice = [
-                {"titulo": "A Hora da Estrela", "autor": "Clarice Lispector", "caminho_imagem": "imagens/a_hora_da_estrela.jpg"},
+                {"titulo": "A Hora da Estrela", "autor": "Clarice Lispector", "caminho_imagem": "imagens/a_hora_da_estrela.png"},
                 {"titulo": "Perto do Coração Selvagem", "autor": "Clarice Lispector", "caminho_imagem": "imagens/perto_do_coracao.png"},
-                {"titulo": "Laços de Família", "autor": "Clarice Lispector", "caminho_imagem": "imagens/lacos_de_familia.jpg"},
-                {"titulo": "A Paixão Segundo G.H.", "autor": "Clarice Lispector", "caminho_imagem": "imagens/a_paixao_gh.jpg"},
-                {"titulo": "O Lustre", "autor": "Clarice Lispector", "caminho_imagem": "imagens/o_lustre.jpg"},
-                {"titulo": "A Cidade Sitiada", "autor": "Clarice Lispector", "caminho_imagem": "imagens/a_cidade_sitiada.jpg"},
-                {"titulo": "Um Sopro de Vida", "autor": "Clarice Lispector", "caminho_imagem": "imagens/um_sopro_de_vida.jpg"},
-                {"titulo": "Água Viva", "autor": "Clarice Lispector", "caminho_imagem": "imagens/agua_viva.jpg"},
-                {"titulo": "Felicidade Clandestina", "autor": "Clarice Lispector", "caminho_imagem": "imagens/felicidade_clandestina.jpg"},
-                {"titulo": "A Maça no Escuro", "autor": "Clarice Lispector", "caminho_imagem": "imagens/maca_escuro.jpg"},
-                {"titulo": "Uma Aprendizagem", "autor": "Clarice Lispector", "caminho_imagem": "imagens/aprendizagem.jpg"},
-                {"titulo": "Alguns Contos", "autor": "Clarice Lispector", "caminho_imagem": "imagens/alguns_contos.jpg"},
-                {"titulo": "A Bela e a Fera", "autor": "Clarice Lispector", "caminho_imagem": "imagens/bela_fera.jpg"},
-                {"titulo": "A Legião Estrangeira", "autor": "Clarice Lispector", "caminho_imagem": "imagens/legiao_estrangeira.jpg"}
+                {"titulo": "Laços de Família", "autor": "Clarice Lispector", "caminho_imagem": "imagens/lacos_de_familia.png"},
+                {"titulo": "A Paixão Segundo G.H.", "autor": "Clarice Lispector", "caminho_imagem": "imagens/a_paixao_gh.png"},
+                {"titulo": "O Lustre", "autor": "Clarice Lispector", "caminho_imagem": "imagens/o_lustre.png"},
+                {"titulo": "A Cidade Sitiada", "autor": "Clarice Lispector", "caminho_imagem": "imagens/a_cidade_sitiada.png"},
+                {"titulo": "Um Sopro de Vida", "autor": "Clarice Lispector", "caminho_imagem": "imagens/um_sopro_de_vida.png"},
+                {"titulo": "Água Viva", "autor": "Clarice Lispector", "caminho_imagem": "imagens/agua_viva.png"},
+                {"titulo": "Felicidade Clandestina", "autor": "Clarice Lispector", "caminho_imagem": "imagens/felicidade_clandestina.png"},
+                {"titulo": "A Maça no Escuro", "autor": "Clarice Lispector", "caminho_imagem": "imagens/maca_escuro.png"},
+                {"titulo": "Uma Aprendizagem", "autor": "Clarice Lispector", "caminho_imagem": "imagens/aprendizagem.png"},
+                {"titulo": "Alguns Contos", "autor": "Clarice Lispector", "caminho_imagem": "imagens/alguns_contos.png"},
+                {"titulo": "A Bela e a Fera", "autor": "Clarice Lispector", "caminho_imagem": "imagens/bela_fera.png"},
+                {"titulo": "A Legião Estrangeira", "autor": "Clarice Lispector", "caminho_imagem": "imagens/legiao_estrangeira.png"}
             ]
             self.livros = [Livro(**dados) for dados in livros_clarice]
             self.salvar_livros()

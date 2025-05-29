@@ -3,7 +3,7 @@
         "id": "675dc4d7-ddad-4602-9341-1221fc43027b",
         "titulo": "A Hora da Estrela",
         "autor": "Clarice Lispector",
-        "caminho_imagem": "imagens/a_hora_da_estrela.jpg"
+        "caminho_imagem": "imagens/a_hora_da_estrela.png"
     },
     {
         "id": "5caa0bcf-313e-4fee-8e7c-6b5cece41fa6",
@@ -15,72 +15,72 @@
         "id": "facd26ac-4e40-4eb3-a8f2-24c2884ae0f5",
         "titulo": "Laços de Família",
         "autor": "Clarice Lispector",
-        "caminho_imagem": "imagens/lacos_de_familia.jpg"
+        "caminho_imagem": "imagens/lacos_de_familia.png"
     },
     {
         "id": "b82bc7f9-33aa-4d73-b6d2-7da1eefa2e5c",
         "titulo": "A Paixão Segundo G.H.",
         "autor": "Clarice Lispector",
-        "caminho_imagem": "imagens/a_paixao_gh.jpg"
+        "caminho_imagem": "imagens/a_paixao_gh.png"
     },
     {
         "id": "2c726990-592e-4b46-b032-e635537fd096",
         "titulo": "O Lustre",
         "autor": "Clarice Lispector",
-        "caminho_imagem": "imagens/o_lustre.jpg"
+        "caminho_imagem": "imagens/o_lustre.png"
     },
     {
         "id": "8ed886f0-bcff-4f60-be2e-6d46546bd197",
         "titulo": "A Cidade Sitiada",
         "autor": "Clarice Lispector",
-        "caminho_imagem": "imagens/a_cidade_sitiada.jpg"
+        "caminho_imagem": "imagens/a_cidade_sitiada.png"
     },
     {
         "id": "823ba4f0-e108-4e36-891d-3663b368d1d1",
         "titulo": "Um Sopro de Vida",
         "autor": "Clarice Lispector",
-        "caminho_imagem": "imagens/um_sopro_de_vida.jpg"
+        "caminho_imagem": "imagens/um_sopro_de_vida.png"
     },
     {
         "id": "47b7bbda-213a-4e92-98a4-cf189a2afa73",
         "titulo": "Água Viva",
         "autor": "Clarice Lispector",
-        "caminho_imagem": "imagens/agua_viva.jpg"
+        "caminho_imagem": "imagens/agua_viva.png"
     },
     {
         "id": "90b13010-29bf-4983-b660-93c66476957b",
         "titulo": "Felicidade Clandestina",
         "autor": "Clarice Lispector",
-        "caminho_imagem": "imagens/felicidade_clandestina.jpg"
+        "caminho_imagem": "imagens/felicidade_clandestina.png"
     },
     {
         "id": "a2b2a93e-f129-4c75-a173-8c53123e36e9",
         "titulo": "A Maça no Escuro",
         "autor": "Clarice Lispector",
-        "caminho_imagem": "imagens/maca_escuro.jpg"
+        "caminho_imagem": "imagens/maca_escuro.png"
     },
     {
         "id": "4cac7737-a0d7-4395-a3b1-227332c88480",
         "titulo": "Uma Aprendizagem",
         "autor": "Clarice Lispector",
-        "caminho_imagem": "imagens/aprendizagem.jpg"
+        "caminho_imagem": "imagens/aprendizagem.png"
     },
     {
         "id": "4600b35e-82c5-4084-9d6a-9eb5d3a19f42",
         "titulo": "Alguns Contos",
         "autor": "Clarice Lispector",
-        "caminho_imagem": "imagens/alguns_contos.jpg"
+        "caminho_imagem": "imagens/alguns_contos.png"
     },
     {
         "id": "ca0b2e34-045b-49a5-b098-28697a0357da",
         "titulo": "A Bela e a Fera",
         "autor": "Clarice Lispector",
-        "caminho_imagem": "imagens/bela_fera.jpg"
+        "caminho_imagem": "imagens/bela_fera.png"
     },
     {
         "id": "0f1673ee-c644-4dd9-bd85-9b097a9eaab4",
         "titulo": "A Legião Estrangeira",
         "autor": "Clarice Lispector",
-        "caminho_imagem": "imagens/legiao_estrangeira.jpg"
+        "caminho_imagem": "imagens/legiao_estrangeira.png"
     }
 ]
