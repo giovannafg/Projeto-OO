@@ -32,7 +32,7 @@ python main_gui.py
 
 O sistema foi inicialmente implementado com **interface em terminal**, mas evoluiu para uma **interface gráfica** com **PySimpleGUI**.
 
-No entanto, devido à nova política de licenciamento do PySimpleGUI (uso gratuito por apenas **30 dias** para hobbyistas), o projeto será retomado com foco em uma **versão web** para o projeto final:
+No entanto, devido à nova política de licenciamento do PySimpleGUI (uso gratuito por apenas **30 dias** para hobbyistas), o projeto será retomado com foco em uma **versão web** para o **projeto final**:
 
 - 🌐 **Serviços HTTP/HTTPS** com páginas HTML/CSS/JS.
 - 🔐 **Sistema web com login** e controle de acesso.
