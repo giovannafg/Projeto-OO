@@ -105,6 +105,7 @@ Esta nova abordagem está alinhada à **macrotarefa proposta pelo professor**, p
 ```
 ## Diagrama de Classes
 
-![Diagrama de Classes](diagrama/diagrama_mermaid.png)
-📄 Veja também: [Diagrama de Classes (código)](diagrama/diagrama_classes.md)
+📄 Veja em: [Diagrama de Classes](diagrama/diagrama_classes.md).
+
+
 
