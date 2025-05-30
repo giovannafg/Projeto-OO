@@ -28,11 +28,21 @@ python main_gui.py
 
 ---
 
+## Tela inicial:
+
+![Captura de tela 2025-05-29 151417](https://github.com/user-attachments/assets/cb2b5917-0376-4832-91fd-c9d431776452)
+
+## Exemplo de postagem:
+
+![Captura de tela 2025-05-29 151455](https://github.com/user-attachments/assets/510091e5-19ac-4a6c-a64c-681cfed78403)
+
+---
+
 ## 💡 Motivação e Histórico
 
 O sistema foi inicialmente implementado com **interface em terminal**, mas evoluiu para uma **interface gráfica** com **PySimpleGUI**.
 
-No entanto, devido à nova política de licenciamento do PySimpleGUI (uso gratuito por apenas **30 dias** para hobbyistas), o projeto será retomado com foco em uma **versão web** para o projeto final:
+No entanto, devido à nova política de licenciamento do PySimpleGUI (uso gratuito por apenas **30 dias** para hobbyistas), o projeto será retomado com foco em uma **versão web** para o **projeto final**:
 
 - 🌐 **Serviços HTTP/HTTPS** com páginas HTML/CSS/JS.
 - 🔐 **Sistema web com login** e controle de acesso.
@@ -87,6 +97,14 @@ Esta nova abordagem está alinhada à **macrotarefa proposta pelo professor**, p
 │   ├── livro.py
 │   ├── postagem.py
 │   └── pessoa.py
+├── diagrama/
+│   ├── diagrama_uml.md
+│   └── diagrama_mermaid.png
 ├── main_gui.py
 ├── README.md
 ```
+## Diagrama de Classes
+
+![Diagrama de Classes](diagrama/diagrama_mermaid.png)
+📄 Veja também: [Diagrama de Classes (código)](diagrama/diagrama_classes.md)
+

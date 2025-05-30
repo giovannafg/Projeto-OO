@@ -10,6 +10,7 @@ classDiagram
     }
 
     class Leitor {
+        <<inherits Pessoa>>
     }
     Pessoa <|-- Leitor
 
@@ -60,6 +61,10 @@ classDiagram
         + listar_postagens()
     }
 
-    Leitor --> Postagem
-    Livro --> Postagem
+    Postagem --> Leitor
+    Postagem --> Livro
+
+    UsuarioController ..> Leitor
+    LivroController ..> Livro
+    PostagemController ..> Postagem
 ```
